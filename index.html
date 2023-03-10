@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Assignments five</title>
+     <!-- Tailwind css cdn link  -->
+     <script src="https://cdn.tailwindcss.com"></script>
+     <!-- Tailwind css cdn link  -->
+     <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+     <div class="m-5">
+          <!-- header part start -->
+          <header class="flex justify-between bg-blue-200 py-4 rounded-lg">
+               <div class="lg:px-8 px-4">
+                    <h2 class="text-3xl font-semibold">Interactive</h2>
+                    <p class="text-xl">Geometry Genius</p>
+               </div>
+               <div class="lg:px-8 px-4">
+                    <button id="btn-blog" class="bg-blue-500 px-7 py-2 mt-2 text-white font-semibold rounded-lg">Blog</button>
+               </div>
+          </header>
+          <!-- header part end -->
+           <main>
+               <div class=" mt-10 grid grid-rows-2 lg:grid-flow-col gap-4">
+                    <!-- first card part start -->
+                    <div id="background-color1" class="border-2 border-slate-200 text-center rounded-lg py-10">
+                         <div class=" flex justify-center mb-7">
+                              <img src="images/triangle.png" alt="">
+                         </div>
+                         <div>
+                              <h4 class="text-xl font-semibold">Triangle</h4>
+                              <p class="mb-4">Area(A) = 0.5 * <span id="trianglePush-field1">b</span> * <span id="trianglePush-field2">h</span></p>
+                         </div>
+                         <div>
+                              <input id="triangle-input1" type="text" class="w-24 px-2 py-1
+                              bg-slate-200 rounded-md" placeholder="b"> <span>cm</span>
+                              <input id="triangle-input2" type="text" class="bg-slate-200 ml-5 w-24 px-2 py-1 rounded-md" placeholder="h"> <span>cm</span>
+                         </div>
+                        <div class="mt-5">
+                         <button id="btn-triangle" class="bg-blue-500 text-white w-7/12 px-4 py-2 font-bold rounded-md">Calculate</button>
+                        </div> 
+                    </div>
+                    <!-- first card part end -->
+
+                     <!-- second card part start -->
+                    <div id="background-color2" class="border-2 border-slate-200 text-center rounded-lg py-10">
+                         <div class=" flex justify-center mb-7">
+                              <img src="images/rhombus.png" alt="">
+                         </div>
+                         <div>
+                              <h4 class="text-xl font-semibold">Rhombus</h4>
+                              <p class="mb-4">Area(A) = 0.5 * <span id="rhombusPush-field1">d1</span> * <span id="rhombusPush-field2">d2</span></p>
+                         </div>
+                         <div>
+                              <input id="rhombus-input1" type="text" class="w-24 px-2 py-1
+                              bg-slate-200 rounded-md" placeholder="d1"> <span>cm</span>
+                              <input id="rhombus-input2" type="text" class="bg-slate-200 ml-5 w-24 px-2 py-1 rounded-md" placeholder="d2"> <span>cm</span>
+                         </div>
+                        <div class="mt-5">
+                         <button id="btn-rhombus" class="bg-blue-500 text-white w-7/12 px-4 py-2 font-bold rounded-md">Calculate</button>
+                        </div> 
+                    </div>
+                     <!-- second card part end -->
+
+                    <!-- 3rd card part start -->
+                    <div id="background-color3" class="border-2 border-slate-200 text-center rounded-lg py-10">
+                         <div class=" flex justify-center mb-7">
+                              <img src="images/rectangle.png" alt="">
+                         </div>
+                         <div>
+                              <h4 class="text-xl font-semibold">Rectangle</h4>
+                              <p class="mb-4">Area(A) = <span id="rectanglePush-field1">w</span> * <span id="rectanglePush-field2">l</span></p>
+                         </div>
+                         <div>
+                              <input id="rectangle-input1" type="text" class="w-24 px-2 py-1
+                              bg-slate-200 rounded-md" placeholder="w"> <span>cm</span>
+                              <input id="rectangle-input2" type="text" class="bg-slate-200 ml-5 w-24 px-2 py-1 rounded-md" placeholder="l"> <span>cm</span>
+                         </div>
+                        <div class="mt-5">
+                         <button id="btn-rectangle" class="bg-blue-500 text-white w-7/12 px-4 py-2 font-bold rounded-md">Calculate</button>
+                        </div> 
+                    </div>
+                    <!-- 3rd card part end -->
+
+                    <!-- 4rd card part start -->
+                    <div id="background-color4" class="border-2 border-slate-200 text-center rounded-lg py-10">
+                         <div class=" flex justify-center mb-7">
+                              <img src="images/pentagon.png" alt="">
+                         </div>
+                         <div>
+                              <h4 class="text-xl font-semibold">Pentagon</h4>
+                              <p class="mb-4">Area(A) = 0.5 * <span  id="pentagonPush-field1">p</span> * <span id="pentagonPush-field2">b</span></p>
+                         </div>
+                         <div>
+                              <input id="pentagon-input1" type="text" class="w-24 px-2 py-1
+                              bg-slate-200 rounded-md" placeholder="p"> <span>cm</span>
+                              <input id="pentagon-input2" type="text" class="bg-slate-200 ml-5 w-24 px-2 py-1 rounded-md" placeholder="b"> <span>cm</span>
+                         </div>
+                        <div class="mt-5">
+                         <button id="btn-pentagon" class="bg-blue-500 text-white w-7/12 px-4 py-2 font-bold rounded-md">Calculate</button>
+                        </div> 
+                    </div>
+                    <!-- 4rd card part end -->
+
+                    <!-- 5th card part start -->
+                    <div id="background-color5" class="border-2 border-slate-200 text-center rounded-lg py-10">
+                         <div class=" flex justify-center mb-7">
+                              <img src="images/parallelogram.png" alt="">
+                         </div>
+                         <div>
+                              <h4 class="text-xl font-semibold">Parallelogram</h4>
+                              <p class="mb-4">Area(A) = <span id="parallelogramPush-field1">b</span> * <span id="parallelogramPush-field2">h</span></p>
+                         </div>
+                         <div>
+                              <input id="parallelogram-input1" type="text" class="w-24 px-2 py-1
+                              bg-slate-200 rounded-md" placeholder="b"> <span>cm</span>
+                              <input id="parallelogram-input2" type="text" class="bg-slate-200 ml-5 w-24 px-2 py-1 rounded-md" placeholder="h"> <span>cm</span>
+                         </div>
+                        <div class="mt-5">
+                         <button id="btn-parallelogram" class="bg-blue-500 text-white w-7/12 px-4 py-2 font-bold rounded-md">Calculate</button>
+                        </div> 
+                    </div>
+                    <!-- 5th card part end --> 
+
+                    <!-- 6th card part start -->
+                    <div id="background-color6" class="border-2 border-slate-200 text-center rounded-lg py-10">
+                         <div class=" flex justify-center mb-7">
+                              <img src="images/ellipse.png" alt="">
+                         </div>
+                         <div>
+                              <h4 class="text-xl font-semibold">Ellipse</h4>
+                              <p class="mb-4">Area(A) = 3.14 * <span id="ellipsePush-field1">a</span>* <span id="ellipsePush-field2">b</span></p>
+                         </div>
+                         <div>
+                              <input id="ellipse-input1" type="text" class="w-24 px-2 py-1
+                              bg-slate-200 rounded-md" placeholder="a"> <span>cm</span>
+                              <input id="ellipse-input2" type="text" class="bg-slate-200 ml-5 w-24 px-2 py-1 rounded-md" placeholder="b"> <span>cm</span>
+                         </div>
+                        <div class="mt-5">
+                         <button id="btn-ellipse" class="bg-blue-500 text-white w-7/12 px-4 py-2 font-bold rounded-md">Calculate</button>
+                        </div> 
+                    </div>
+                     <!-- 6th card part end -->
+
+                    <!-- calculation result card part start -->
+                     <div id="background-color7" class="border-2 border-slate-200  rounded-lg py-10 w-100">
+                       <h2 class="text-3xl font-bold text-center">Area Calculation</h2>
+                       <ul class="pl-5">
+                         <li id="unhidden1" class="mt-3 hidden">1. Triangle: <span id="triangleTotal" class="ml-20">0</span> cm<sup>2</sup>
+                         <button  class="bg-blue-500 px-2 py-2 mt-2 lg:ml-2 text-white font-semibold rounded-lg">Covert to m <sup>2</sup></button>
+                         </li>
+                         <li id="unhidden2" class="mt-3 hidden">2. Rhombus: <span id="rhombusTotal" class="ml-20">0</span> cm<sup>2</sup>
+                         <button  class="bg-blue-500 px-2 py-2 mt-2 lg:ml-2 text-white font-semibold rounded-lg">
+                         Covert to m <sup>2</sup></button>
+                         </li>
+                         <li id="unhidden3" class="mt-3 hidden">3. Rectangle: <span class="ml-20" id="rectangleTotal">0</span> cm<sup>2</sup>
+                         <button  class="bg-blue-500 px-2 py-2 mt-2 lg:ml-2 text-white font-semibold rounded-lg">Covert to m <sup>2</sup></button>
+                         </li>
+                         <li id="unhidden4" class="mt-3 hidden">4. Pentagon: <span id="pentagonTotal" class="ml-20">0</span> cm<sup>2</sup>
+                         <button  class="bg-blue-500 px-2 py-2 mt-2 lg:ml-2 text-white font-semibold rounded-lg">Covert to m <sup>2</sup></button>
+                         </li>
+                         <li id="unhidden5" class="mt-3 hidden">5. Parallelogram: <span class="ml-14" id="parallelogramTotal">0</span> cm<sup>2</sup>  
+                         <button  class="bg-blue-500 px-2 py-2 mt-2 lg:ml-2 text-white font-semibold rounded-lg">Covert to m <sup>2</sup></button>
+                         </li>
+                         <li id="unhidden6" class="mt-3 hidden">6. Ellipse: <span id="ellipseTotal" class="ml-28">0</span> cm<sup>2</sup> 
+                         <button  class="bg-blue-500 px-2 py-2 mt-2 lg:ml-2 text-white font-semibold rounded-lg">Covert to m <sup>2</sup></button>
+                         </li>
+                       </ul>
+                  </div>
+               <!-- calculation result card part end -->        
+          </main>
+     </div>
+     <script src="js/common.js"></script>
+     <script src="js/index.js"></script>
+</body>
+</html>
